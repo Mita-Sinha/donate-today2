@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common tag */
+
+.section-5,
+.section-2,
+.section-4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.donate-now-btn {
+    background-color: lightsalmon;
+    border: 1px gray;
+    padding: 18px 35px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+/* common tag */
+
+
+/* banner section Start */
+.banner-container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/images/vol.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-heading {
+    text-align: center;
+    color: white;
+    padding: 100px 200px;
+
+}
+
+.banner-title {
+    font-size: 60px;
+}
+
+.banner-para {
+    font-size: 20px;
+
+}
+
+/* banner section end */
+
+/* donate today section Start */
+
+.donate-Plan {
+    text-align: center;
+    padding: 20px;
+}
+
+.donate-Plan h1 {
+    /* text-align: center; */
+    padding: 20px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.box-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+    margin: 20px;
+
+}
+
+.card-tk {
+    width: 80px;
+    height: 70px;
+    padding: 25px;
+    margin: 15px 10px;
+    border: 1px gray;
+    background-color: lightgrey;
+    color: grey;
+    border-radius: 5px;
+}
+
+.card-no2 {
+    border: 2px solid lightcoral;
+    background-color: lightpink;
+    color: crimson;
+    border-radius: 5px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 15px;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Other-Amount p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* donate today section end  */
+
+/* Our Donate Plan section Start  */
+.card-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 280px;
+    height: 280px;
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: antiquewhite;
+
+}
+
+.card-2 {
+    background-color: aquamarine;
+}
+
+.card-3 {
+    background-color: cadetblue;
+}
+
+.card-section h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon-img {
+    width: 50px;
+
+}
+
+.p-blog {
+    text-align: center;
+    padding: 50px;
+
+}
+
+/* Our Donate Plan section end  */
+
+/* Get My Updates ection Start */
+.form-area {
+    margin: 80px 250px 80px 250px;
+    padding: 60px;
+    background-color: darksalmon;
+}
+
+.input-email {
+    border: 0px solid gray;
+    border-radius: 5px 0 0 5px;
+    background-color: MintCream;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+
+.sub-btn {
+    font-size: 15px;
+    background-color: LightSalmon;
+    border: 0px solid gray;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    padding: 10px;
+}
+
+/* Get My Updates ection end */
+
+/* footer Start */
+.footer {
+    text-align: center;
+    background-color: black;
+    color: indianred;
+    padding: 80px;
+    font-size: 25px;
+}
+
+.footer p {
+    color: white;
+}
+
+/* footer end */
